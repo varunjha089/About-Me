@@ -3,6 +3,8 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/varunjha089/About-Me?style=flat)
 ![GitHub repo size](https://img.shields.io/github/repo-size/varunjha089/About-Me)
 ![Twitter Follow](https://img.shields.io/twitter/follow/varunjha089?style=flat)
+![GitHub language count](https://img.shields.io/github/languages/count/varunjha089/About-Me)
+![GitHub top language](https://img.shields.io/github/languages/top/varunjha089/About-Me)
 
 This is second Application of `Android Kotlin Developer Nanodegree` by Udacity.
 
