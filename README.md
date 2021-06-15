@@ -6,21 +6,25 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/varunjha089/About-Me)
 ![GitHub top language](https://img.shields.io/github/languages/top/varunjha089/About-Me)
 
-This is second Application of `Android Kotlin Developer Nanodegree` by Udacity.
+This is second Application of `Android Kotlin Developer Nanodegree` by Udacity. This application
+is a part of Chapter on Layout's.
+
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Light/dark mode style available
+- Data Binding
+- Various layout's used
+- Can interact with user
 
 
 ## Installation 
 
-Install my-project with npm
+```colsole
+$ git clone https://github.com/varunjha089/About-Me.git
+```
 
-
+Now open the project in `Android Studio`.
 
 ## Screenshots
 
