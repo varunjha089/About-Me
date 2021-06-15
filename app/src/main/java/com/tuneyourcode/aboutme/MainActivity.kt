@@ -12,9 +12,13 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    private val myName: MyName = MyName("Varun Kumar")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        binding.myName = myName
 
         binding.doneButton.setOnClickListener {
             addNickname(it)
@@ -24,11 +28,12 @@ class MainActivity : AppCompatActivity() {
     private fun addNickname(view: View){
 
         binding.apply {
-            binding.nicknameText.text = binding.nickNameEdit.text
+            //binding.nicknameText.text = binding.nickNameEdit.text
+            myName?.nickname = nickNameEdit.text.toString()
             invalidateAll()
-            binding.nickNameEdit.visibility = View.GONE
-            binding.doneButton.visibility = View.GONE
-            binding.nicknameText.visibility = View.VISIBLE
+            nickNameEdit.visibility = View.GONE
+            doneButton.visibility = View.GONE
+            nicknameText.visibility = View.VISIBLE
         }
 
         // Hiding the input text and keyboard
