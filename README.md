@@ -39,3 +39,9 @@ Please adhere to `code of conduct`.
 ## Authors
 
 - [@varunjha089](https://www.github.com/varunjha089)
+
+## Credits
+
+- [readme.so](https://readme.so)
+- [@varunjha089](https://www.github.com/varunjha089)
+- [Android Kotlin Nonodegree](https://www.udacity.com/course/android-kotlin-developer-nanodegree--nd940)
